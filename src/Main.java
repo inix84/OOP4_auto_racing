@@ -1,6 +1,5 @@
 //import Driver.*;
 import Auto_Racing.*;
-
 public class Main {
     public static void main(String[] args) {
         Car lada =new Car("Lada","2114",1.6);
@@ -15,35 +14,20 @@ public class Main {
         Trucks renaultTruck = new Trucks("Renault", "Premium",7.2);
         Trucks mersedesBenzTruck = new Trucks("Mersedes-Benz 6x6", "Arocs",10.7 );
         Trucks kamazTruck = new Trucks("КамАЗ", "4325",6.7);
-
-
-
-
-
-
-
-
         System.out.println(chevrolet);
         System.out.println(skoda);
         System.out.println(renault);
         System.out.println(lada);
-
         System.out.println(manBus);
         System.out.println(volgaBus);
         System.out.println(hyundaiBus);
         System.out.println(volvoBus);
-
         System.out.println(kamazTruck);
         System.out.println(manTruckTruck);
         System.out.println(mersedesBenzTruck);
         System.out.println(renaultTruck);
-
         chevrolet.pitStop();
         System.out.println(chevrolet.bestLapTime());
         System.out.println(chevrolet.maxSpeed());
-
-
-
     }
-
 }
