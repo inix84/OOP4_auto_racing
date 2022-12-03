@@ -29,5 +29,14 @@ public class Main {
         renault.pitStop();
         System.out.println(manBus.bestLapTime());
         System.out.println(manBus.maxSpeed());
+        DriverCategoryB Ivan = new DriverCategoryB("Иванов Иван", "B",3,chevrolet);
+        System.out.println(Ivan);
+        kamazTruck.startMoving();
+        kamazTruck.pitStop();
+        kamazTruck.stopMoving();
+        DriverCategoryC Angelina = new DriverCategoryC("Анжела Батьковна","C", 4,manTruckTruck);
+        System.out.println(Angelina);
+        DriverCategoryD Rita = new DriverCategoryD("Маргарита Павловна", "D", 6, volgaBus);
+        System.out.println(Rita);
     }
 }
