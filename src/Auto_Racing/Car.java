@@ -9,21 +9,21 @@ public class Car extends Transport implements Competing {
     }
     @Override
     public void startMoving() {
-        System.out.println("Быстро начинаю движение с пробуксовкой");
+        System.out.println("Быстро");
     }
     @Override
     public void stopMoving() {
-        System.out.println("Заканчиваю движение, быстро торможу");
+        System.out.println("Резко");
     }
     @Override
     public void pitStop() {
-        System.out.println("Заезжаю на пит-стоп для легковых авто");
+        System.out.println("Заезд для помощи легковым автомобилям");
     }
     public double bestLapTime() {
-        return  1.2;
+        return  1.4;
     }
     @Override
     public int maxSpeed() {
-        return 200;
+        return 300;
     }
 }

@@ -25,7 +25,6 @@ public abstract class Transport {
     }
     public abstract void startMoving(); //метод «начать движение»,
     public abstract void stopMoving(); //метод «закончить движение».
-
     public String getBrand() {
         return brand;
     }

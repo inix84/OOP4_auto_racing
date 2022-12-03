@@ -9,22 +9,22 @@ public class Bus extends Transport implements Competing {
     }
     @Override
     public void startMoving() {
-        System.out.println("Медленно набираю скорость");
+        System.out.println("Медленно");
     }
     @Override
     public void stopMoving() {
-        System.out.println("Оттормаживаюсь, заканчиваю движение");
+        System.out.println("Безопасно");
     }
     @Override
     public void pitStop() {
-        System.out.println("Заезжаю на пит-стоп для автобусов");
+        System.out.println("Заезд для помощи автобусам");
     }
     @Override
     public double bestLapTime() {
-        return 1.1;
+        return 1.2;
     }
     @Override
     public int maxSpeed() {
-        return 160;
+        return 170;
     }
 }

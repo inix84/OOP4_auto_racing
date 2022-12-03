@@ -9,22 +9,22 @@ public class Trucks extends Transport implements Competing{
     }
     @Override
     public void startMoving() {
-        System.out.println("Проверяю закреплен ли груз, очень медленно начинаю движение");
+        System.out.println("Безопасно");
     }
     @Override
     public void stopMoving() {
-        System.out.println("Очень медленно и аккуратно заканчиваю движение");
+        System.out.println("Осторожно");
     }
     @Override
     public void pitStop() {
-        System.out.println("Заезжаю на пит-стоп для грузовиков");
+        System.out.println("Заезд для помощт грузовикам");
     }
     @Override
     public double bestLapTime() {
-        return 0.9;
+        return 0.8;
     }
     @Override
     public int maxSpeed() {
-        return 120;
+        return 130;
     }
 }
